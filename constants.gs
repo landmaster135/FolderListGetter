@@ -1,0 +1,10 @@
+const SHEET_NAME_1ST = "フォルダ採番";
+const SHEET_NAME_2ND = "【出力結果】フォルダのURL";
+
+const ROW_INDEX_TO_START_OUTPUTING_RECORDS = 4;
+const COLUMN_INDEX_OF_FOLDER_LIST_IN_ROOT = 1; // A列のインデックス
+const COLUMN_INDEX_OF_FILE_LIST_TO_GET = 6; // F列のインデックス
+const COLUMN_INDEX_OF_FILE_LIST_TO_COPY_FILE = 10; // J列のインデックス
+const COLUMN_INDEX_OF_FILE_LIST_TO_RENAME = 12; // L列
+
+const TEMPLATE_FILE_ID = LandGasterId.FLG_TEMPLATE_FILE_ID();
