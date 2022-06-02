@@ -13,6 +13,7 @@ function getFolderListInFolder() {
     sheet.getRange(i, 0+COLUMN_INDEX_OF_FOLDER_LIST_IN_ROOT).setValue(name + folder.getName());
     sheet.getRange(i, 1+COLUMN_INDEX_OF_FOLDER_LIST_IN_ROOT).setValue(folder.getId());
     sheet.getRange(i, 2+COLUMN_INDEX_OF_FOLDER_LIST_IN_ROOT).setValue(folder.getUrl());
+    sheet.getRange(i, 3+COLUMN_INDEX_OF_FOLDER_LIST_IN_ROOT).setValue(folder.getSize());
     i++;
   }
 }

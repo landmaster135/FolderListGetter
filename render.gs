@@ -7,7 +7,7 @@ function onOpen(){
     // .addItem('メニュー1', 'myFunction1')
     .addSeparator()
     .addSubMenu(SpreadsheetApp.getUi()
-      .createMenu("Column A to D")
+      .createMenu("Column A to E")
         .addItem("Outputs folder info in the root folder", "getFolderListInFolder")
     )
     .addSeparator()
